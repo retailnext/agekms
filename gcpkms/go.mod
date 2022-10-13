@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go/kms v1.1.0
 	filippo.io/age v1.0.0
 	google.golang.org/genproto v0.0.0-20211102202547-e9cf271f7f2c
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.28.1
 )
 
 require (
