@@ -1,6 +1,6 @@
 module github.com/retailnext/agekms/gcpkms
 
-go 1.17
+go 1.19
 
 require (
 	cloud.google.com/go/kms v1.1.0

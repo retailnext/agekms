@@ -1,6 +1,6 @@
 module github.com/retailnext/agekms/rsaoaep
 
-go 1.17
+go 1.19
 
 require filippo.io/age v1.0.0
 
