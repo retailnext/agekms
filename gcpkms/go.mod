@@ -19,10 +19,10 @@ require (
 	github.com/googleapis/gax-go/v2 v2.6.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/crypto v0.0.0-20221012134737-56aed061732a // indirect
-	golang.org/x/net v0.0.0-20221017152216-f25eb7ecb193 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783 // indirect
-	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
 	google.golang.org/api v0.100.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/grpc v1.50.1 // indirect
