@@ -23,7 +23,7 @@ import (
 )
 
 func keyID(key *rsa.PublicKey) (string, error) {
-	keyBytes, err := asn1.Marshal(key)
+	keyBytes, err := asn1.Marshal(*key)
 	if err != nil {
 		return "", err
 	}

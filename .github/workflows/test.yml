@@ -1,0 +1,33 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test-rsaoaep:
+    name: rsaoaep
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: rsaoaep
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: rsaoaep/go.mod
+      - run: go test ./...
+
+  test-gcpkms:
+    name: gcpkms
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: gcpkms
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: gcpkms/go.mod
+      - run: go test ./...
